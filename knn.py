@@ -3,7 +3,7 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 
 #Step1: Import the required data and check the features.
-iris=load_iris()
+iris = datasets.load_iris()
 print("Iris data")
 print(iris)
 print("\n")
